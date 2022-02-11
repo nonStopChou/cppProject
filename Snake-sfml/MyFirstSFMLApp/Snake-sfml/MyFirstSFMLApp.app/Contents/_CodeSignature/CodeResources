@@ -4,21 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/cute_image.jpg</key>
+		<key>Resources/font/Quicksand-Light.otf</key>
 		<data>
-		oYFsbX2Lg4Wgk1YajGXFBpAkftc=
-		</data>
-		<key>Resources/icon.png</key>
-		<data>
-		r8GI9yFA5fomEXB2Wc/xj6l6gn4=
-		</data>
-		<key>Resources/nice_music.ogg</key>
-		<data>
-		mkc55ngrZgMoydCHFSOka9CHJgU=
-		</data>
-		<key>Resources/sansation.ttf</key>
-		<data>
-		7UfTTciMfILsbRJb60xKE3WIi+s=
+		2VPivLonbf3uH7mFEky8WfEG4zA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -131,48 +119,15 @@
 			<key>requirement</key>
 			<string>identifier "org.sfml-dev.vorbisfile" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: pingruchou1125tw@gmail.com (L5NM2YSBUJ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
-		<key>Resources/cute_image.jpg</key>
+		<key>Resources/font/Quicksand-Light.otf</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oYFsbX2Lg4Wgk1YajGXFBpAkftc=
+			2VPivLonbf3uH7mFEky8WfEG4zA=
 			</data>
 			<key>hash2</key>
 			<data>
-			hpn+u4B73VNU7uAhMYE1YL+7yVN57wBVe7q8hTcmihQ=
-			</data>
-		</dict>
-		<key>Resources/icon.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			r8GI9yFA5fomEXB2Wc/xj6l6gn4=
-			</data>
-			<key>hash2</key>
-			<data>
-			4yTOurNW9mTneWQ6amxGjaLAIxxkklMlv4U8pwpex6I=
-			</data>
-		</dict>
-		<key>Resources/nice_music.ogg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mkc55ngrZgMoydCHFSOka9CHJgU=
-			</data>
-			<key>hash2</key>
-			<data>
-			a3JARPCAQiNtEPwSueKFT8MiNPMzA7exeoEtWezBNyQ=
-			</data>
-		</dict>
-		<key>Resources/sansation.ttf</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7UfTTciMfILsbRJb60xKE3WIi+s=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ji7MT5BUAWeS/uKDbFKRdlwYbEPVLN0nlKRQu61tCQk=
+			WGaKvFxNmxE8RvPVJ6/7vpFjpLAXpeCKIQ3Crusyrn4=
 			</data>
 		</dict>
 	</dict>

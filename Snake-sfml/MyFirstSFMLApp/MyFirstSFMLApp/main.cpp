@@ -42,7 +42,8 @@ int main(int, char const**)
     
     // set font
     sf::Font font;
-    if (!font.loadFromFile("/Users/pingruchou/Desktop/sfmlPractice/MyFirstSFMLApp/MyFirstSFMLApp/Quicksand-Light.otf")) {
+    system("pwd");
+    if (!font.loadFromFile(resourcePath() + "font/Quicksand-Light.otf")) {
         return EXIT_FAILURE;
     }
     

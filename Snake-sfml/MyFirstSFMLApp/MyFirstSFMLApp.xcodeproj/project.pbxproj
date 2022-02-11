@@ -9,14 +9,11 @@
 /* Begin PBXBuildFile section */
 		3421A35727B2D9D500876655 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3421A35627B2D9D500876655 /* ResourcePath.mm */; };
 		3421A35A27B2D9D500876655 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3421A35927B2D9D500876655 /* main.cpp */; };
-		3421A35D27B2D9D600876655 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3421A35C27B2D9D600876655 /* cute_image.jpg */; };
-		3421A35F27B2D9D600876655 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 3421A35E27B2D9D600876655 /* nice_music.ogg */; };
-		3421A36127B2D9D600876655 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3421A36027B2D9D600876655 /* sansation.ttf */; };
-		3421A36327B2D9D600876655 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3421A36227B2D9D600876655 /* icon.png */; };
 		3421A37727B2E07400876655 /* lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3421A37627B2E07400876655 /* lib */; };
 		3421A37B27B4128100876655 /* Snake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3421A37927B4128100876655 /* Snake.cpp */; };
 		3421A38427B5172600876655 /* Food.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3421A38227B5172600876655 /* Food.cpp */; };
 		3421A38A27B51ACD00876655 /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3421A38827B51ACD00876655 /* Board.cpp */; };
+		3421A3B927B6B61D00876655 /* font in Resources */ = {isa = PBXBuildFile; fileRef = 3421A3B827B6B61D00876655 /* font */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +22,6 @@
 		3421A35627B2D9D500876655 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		3421A35827B2D9D500876655 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		3421A35927B2D9D500876655 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		3421A35C27B2D9D600876655 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cute_image.jpg; path = ../cute_image.jpg; sourceTree = "<group>"; };
-		3421A35E27B2D9D600876655 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = nice_music.ogg; path = ../nice_music.ogg; sourceTree = "<group>"; };
-		3421A36027B2D9D600876655 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sansation.ttf; path = ../sansation.ttf; sourceTree = "<group>"; };
-		3421A36227B2D9D600876655 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 		3421A36A27B2DF4000876655 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../../Library/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
 		3421A36B27B2DF4000876655 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../../Library/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
 		3421A36C27B2DF4100876655 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../../Library/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
@@ -43,6 +36,7 @@
 		3421A38327B5172600876655 /* Food.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Food.hpp; sourceTree = "<group>"; };
 		3421A38827B51ACD00876655 /* Board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cpp; sourceTree = "<group>"; };
 		3421A38927B51ACD00876655 /* Board.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Board.hpp; sourceTree = "<group>"; };
+		3421A3B827B6B61D00876655 /* font */ = {isa = PBXFileReference; lastKnownFileType = folder; name = font; path = MyFirstSFMLApp/font; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +54,7 @@
 		3421A34727B2D9D500876655 = {
 			isa = PBXGroup;
 			children = (
+				3421A3B827B6B61D00876655 /* font */,
 				3421A35327B2D9D500876655 /* MyFirstSFMLApp */,
 				3421A35227B2D9D500876655 /* Products */,
 				3421A36927B2DF4000876655 /* Frameworks */,
@@ -81,7 +76,6 @@
 				3421A35627B2D9D500876655 /* ResourcePath.mm */,
 				3421A35827B2D9D500876655 /* ResourcePath.hpp */,
 				3421A35927B2D9D500876655 /* main.cpp */,
-				3421A35B27B2D9D600876655 /* Resources */,
 				3421A35427B2D9D500876655 /* Supporting Files */,
 				3421A37927B4128100876655 /* Snake.cpp */,
 				3421A37A27B4128100876655 /* Snake.hpp */,
@@ -99,17 +93,6 @@
 				3421A35527B2D9D500876655 /* MyFirstSFMLApp-Info.plist */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3421A35B27B2D9D600876655 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3421A35C27B2D9D600876655 /* cute_image.jpg */,
-				3421A35E27B2D9D600876655 /* nice_music.ogg */,
-				3421A36027B2D9D600876655 /* sansation.ttf */,
-				3421A36227B2D9D600876655 /* icon.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		3421A36927B2DF4000876655 /* Frameworks */ = {
@@ -185,10 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3421A36327B2D9D600876655 /* icon.png in Resources */,
-				3421A36127B2D9D600876655 /* sansation.ttf in Resources */,
-				3421A35F27B2D9D600876655 /* nice_music.ogg in Resources */,
-				3421A35D27B2D9D600876655 /* cute_image.jpg in Resources */,
+				3421A3B927B6B61D00876655 /* font in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
