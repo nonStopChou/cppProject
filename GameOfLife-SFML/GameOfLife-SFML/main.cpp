@@ -19,36 +19,18 @@
 
 // Here is a small helper for you! Have a look.
 #include "ResourcePath.hpp"
-
+#include "Board.hpp"
 int main(int, char const**)
 {
     // Create the main window
-    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML window");
-
-    // Set the Icon
-    sf::Image icon;
-    if (!icon.loadFromFile(resourcePath() + "icon.png")) {
-        return EXIT_FAILURE;
-    }
-    window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
-
-    // Load a sprite to display
-    sf::Texture texture;
-    if (!texture.loadFromFile(resourcePath() + "cute_image.jpg")) {
-        return EXIT_FAILURE;
-    }
-    sf::Sprite sprite(texture);
-
-    // Create a graphical text to display
-    sf::Font font;
-    if (!font.loadFromFile(resourcePath() + "sansation.ttf")) {
-        return EXIT_FAILURE;
-    }
-    sf::Text text("Hello SFML", font, 50);
-    text.setFillColor(sf::Color::Black);
-
-  
+    sf::RenderWindow window(sf::VideoMode(1000 + 20, 1000 + 20), "SFML window", sf::Style::Close);
+    
+    
+    
+    Board board(100);
     // Start the game loop
+    bool start = false;
+    bool mouseControl = true;
     while (window.isOpen())
     {
         // Process events
@@ -64,17 +46,31 @@ int main(int, char const**)
             if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape) {
                 window.close();
             }
+            
+            if( mouseControl && sf::Mouse::isButtonPressed(sf::Mouse::Left)){
+                sf::Vector2i mousePos = sf::Mouse::getPosition(window);
+                board.setCell(mousePos.x, mousePos.y);
+            }
+            
+            if(sf::Keyboard::isKeyPressed(sf::Keyboard::Enter)){
+                start = true;
+                mouseControl = false;
+            }
+            if(sf::Keyboard::isKeyPressed(sf::Keyboard::P)){
+                start = false;
+                mouseControl = true;
+            }
+            
         }
-
+        if(start){
+            board.update();
+            board.render();
+        }
         // Clear screen
         window.clear();
-
-        // Draw the sprite
-        window.draw(sprite);
-
-        // Draw the string
-        window.draw(text);
-
+        for(size_t i = 0 ; i < 100 * 100; i++){
+            window.draw(board.board[i]);
+        }
         // Update the window
         window.display();
     }
