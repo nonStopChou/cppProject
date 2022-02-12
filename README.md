@@ -12,11 +12,11 @@ C++ practice
 - Enter 012345678 to set the cell to (O/X)
 
 '------------------------'<br />
-| &nbsp;&nbsp;&nbsp;&nbsp;0 $~~~~~$|$~~~~$ 1 $~~~~$|$~~~~$ 2 $~~~~$|<br />
+| &nbsp;&nbsp;&nbsp;&nbsp;0 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; 2 &nbsp;&nbsp;&nbsp;&nbsp;|<br />
 '------------------------'<br />
-|$~~~~$ 3 $~~~~~$|$~~~~$ 4 $~~~~$|$~~~~$ 5 $~~~~$|<br />
+| &nbsp;&nbsp;&nbsp;&nbsp;3 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; 4 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp;&nbsp;&nbsp;|<br />
 '------------------------'<br />
-|$~~~~$ 6 $~~~~~$|$~~~~$ 7 $~~~~$|$~~~~$ 8 $~~~~$|<br />
+| &nbsp;&nbsp;&nbsp;&nbsp;6 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; 7 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; 8 &nbsp;&nbsp;&nbsp;&nbsp;|<br />
 '------------------------'<br />
 
 # Snake 
